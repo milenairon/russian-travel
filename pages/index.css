@@ -1,0 +1,100 @@
+/*Нормалайз*/
+@import url(../vendor/normalize.css);
+
+/*Блок header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+
+/*Блок lead*/
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__wrapper/lead__wrapper.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/*Блок intro*/
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+
+/*Блок photo-grid*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+/*Блок places*/
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__container/place__container.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__wrapper/place__wrapper.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Body*/
+.page {
+  /*ширина страницы от 1280 пикселей — от стандартных ноутбуков и до бесконечности*/
+  min-width: 1280px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #2a2c2f;
+}
+
+.page,
+.header,
+.header__lang-link,
+.header__logo,
+.lead,
+.lead__title,
+.lead__subtitle,
+.lead__wrapper,
+.lead__image,
+.lead__caption,
+.intro,
+.intro__title,
+.intro__text,
+.intro__list,
+.photo-grid,
+.photo-grid__item,
+.places,
+.place,
+.place__title,
+.place__image,
+.place__website,
+.place__url-heading,
+.place__link,
+.place__paragraph,
+.place__container,
+.place__wrapper {
+  border: 1px solid red;
+}

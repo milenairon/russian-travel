@@ -1,0 +1,9 @@
+/*Ссылка*/
+.place__link {
+  margin: 12px 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}

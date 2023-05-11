@@ -1,0 +1,8 @@
+/*Заголовок*/
+.intro__title {
+  margin: 0 auto 0 0;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #ffffff;
+}

@@ -1,0 +1,9 @@
+/*Настоящая страна не в выпусках новостей, а здесь.*/
+.lead__subtitle {
+    margin: 32px auto 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+}

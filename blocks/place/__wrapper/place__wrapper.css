@@ -1,0 +1,5 @@
+/*Контейнер для ссылки и параграфов*/
+.place__wrapper {
+  min-width: 484px;
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+/*Место для ссылки*/
+.place__website {
+  margin: 0;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-content: start;
+}
+
