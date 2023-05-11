@@ -7,3 +7,7 @@
   letter-spacing: 2px;
   color: #ffffff;
 }
+
+.place__link:hover {
+  opacity: 80%;
+}

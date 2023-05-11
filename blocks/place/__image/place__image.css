@@ -1,7 +1,8 @@
 /*Картинка*/
 .place__image {
-  margin: 48px 0 0;
-  width: 100%;
+  margin: 0 40px 0 0;
+  height: 100%;
+  width: 460px;
   object-fit: cover;
   box-sizing: border-box;
 }

@@ -4,8 +4,5 @@
   display: grid;
   grid-template: repeat(1, 1fr) / repeat(3, 1fr);
   gap: 16px;
-  /*width: 1184px;*/
-  /*min-height: calc(100vh - 80px);*/
-  display: grid;
   padding: 0px 48px;
 }

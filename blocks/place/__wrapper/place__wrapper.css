@@ -1,5 +1,9 @@
-/*Контейнер для ссылки и параграфов*/
+/*Контейнер для картинки и параграфов*/
 .place__wrapper {
-  min-width: 484px;
-  margin: 0;
+  height: 460px;
+  margin: 48px 0 0;
+  display: flex;
+ /* display: grid;
+  grid-template: 1fr / 0.95fr 1fr;
+  gap: calc(100% - 0.95fr - 1fr)*/
 }

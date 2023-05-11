@@ -1,0 +1,15 @@
+/*Картинка жд путей на фоне*/
+.cover__background {
+  background-image: url(../../../images/cover-trains.jpg);
+  width: 100%;
+  min-height: 740px;
+  background-size: 100%;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}

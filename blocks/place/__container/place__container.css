@@ -1,6 +1,5 @@
-/*Контейнер для заголовка и картинки*/
+/*Контейнер для заголовка и ссылки*/
 .place__container {
-  margin: 0 calc(100% - 460px - 484px) 0 0;
-  min-width: 460px;
-  min-height: 584px;
+  flex-direction: row;
+  display: flex;
 }
