@@ -3,4 +3,5 @@
   display: grid;
   grid-template: 1fr / minmax(460px, 0.95fr) minmax(484px, 1fr);
   gap: 40px;
+  box-sizing: border-box;
 }

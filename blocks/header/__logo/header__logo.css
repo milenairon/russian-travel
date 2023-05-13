@@ -1,6 +1,6 @@
 /*Логотип Россия*/
 .header__logo {
   margin: 0;
-  width: 176px;
-  height: 52px;
+  max-width: 176px;
+  min-height: 52px;
 }

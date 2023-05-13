@@ -1,6 +1,9 @@
+
 /*Блок*/
 .lead {
-  min-width: 984px;
+  width: 100%;
   min-height: 1005px;
-  margin: 56px auto 0;
+  margin: 56px 0 0;
+  padding: 0 148px 0;
+  box-sizing: border-box;
 }

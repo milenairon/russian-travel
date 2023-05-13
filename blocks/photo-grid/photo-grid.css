@@ -1,8 +1,10 @@
 /*Блок*/
 .photo-grid {
-  margin: 92px auto 0;
+  margin: 92px 0 0;
   display: grid;
-  grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
   gap: 16px;
-  padding: 0px 48px;
+  width: 100%;
+  padding: 0 48px 0;
+  box-sizing: border-box;
 }

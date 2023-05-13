@@ -1,7 +1,9 @@
 .header {
-    width: 92.5%;
-    height: 52px;
-    margin: 28px auto 0;
+    min-width: 100%;
+    padding: 0 48px 0;
+    box-sizing: border-box;
+    min-height: 52px;
+    margin: 28px 0 0;
     display: flex;
     justify-content: space-between;
 }
