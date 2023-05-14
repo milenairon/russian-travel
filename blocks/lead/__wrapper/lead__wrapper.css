@@ -2,12 +2,3 @@
   width: 100%;
   margin: 64px 0 0;
 }
-
-/*Блок*/
-.lead {
-  width: 100%;
-  min-height: 1005px;
-  margin: 56px 0 0;
-  padding: 0 148px 0;
-  box-sizing: border-box;
-}
