@@ -1,8 +1,29 @@
 /*Блок*/
 .lead {
   width: 100%;
-  min-height: 1005px;
+  height: 100%;
   margin: 56px 0 0;
   padding: 0 148px 0;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: 48px 0 0;
+    padding: 0 48px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    margin: 48px 0 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    margin: 48px 0 0;
+    padding: 0;
+  }
 }

@@ -5,5 +5,10 @@
   flex-direction: column;
   justify-content: end;
   align-content: start;
-  max-width: 460px;
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin: 0 16px 0;
+  }
 }

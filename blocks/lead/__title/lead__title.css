@@ -5,7 +5,15 @@
   max-width: 720px;
   font-weight: 900;
   font-size: 96px;
-  line-height: 125%;
+  line-height: 104%;
   text-align: center;
   color: #ffffff;
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 110%;
+  }
 }

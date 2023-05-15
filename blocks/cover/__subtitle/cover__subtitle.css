@@ -17,3 +17,12 @@
 .cover__subtitle:hover ~ .cover__overlay {
   opacity: 80%;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    margin: 16px auto 0;
+    font-size: 14px;
+    line-height: 114%;
+    max-width: 288px;
+  }
+}

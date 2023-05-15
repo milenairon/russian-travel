@@ -16,3 +16,24 @@
 .cover__title:hover ~ .cover__overlay {
   opacity: 80%;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    margin: 195px auto 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    margin: 115px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    margin: 33px auto 0;
+    font-size: 32px;
+    line-height: 109%;
+    max-width: 288px;
+  }
+}
