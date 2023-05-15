@@ -1,13 +1,11 @@
 /*Настоящая страна не в выпусках новостей, а здесь.*/
 .lead__subtitle {
-  margin: 32px 0 0;
-  padding: 0 172px 0;
-  box-sizing: border-box;
+  margin: 32px auto 0;
   width: 100%;
   font-weight: 400;
-  font-size: calc((100vw - 320px) / (1280 - 320) * (30 - 16) + 16px);
+  font-size: 30px;
   line-height: 120%;
   text-align: center;
   color: #ffffff;
-  /* min-width: 640px;*/
+  max-width: 640px;
 }

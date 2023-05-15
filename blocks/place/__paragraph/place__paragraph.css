@@ -5,8 +5,10 @@
   font-size: 18px;
   line-height: 163%;
   color: #ffffff;
+  max-width: 484px;
 }
 
 .place__paragraph:first-child {
   margin: 0;
 }
+
