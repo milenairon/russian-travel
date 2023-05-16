@@ -1,29 +1,28 @@
 .header {
   width: 100%;
-  padding: 0 48px 0;
+  padding: 28px 48px 0;
   box-sizing: border-box;
-  max-height: 52px;
-  margin: 28px 0 0;
+  max-height: calc(52px + 28px);
+  margin: 0;
   display: flex;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    padding: 0 48px 0;
+    padding: 28px 48px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 0 24px 0;
+    padding: 28px 24px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    padding: 0 16px 0;
-    max-height: 42px;
-    margin: 16px 0 0;
+    padding: 16px 16px 0;
+    max-height: calc(42px + 16px);
   }
 }
