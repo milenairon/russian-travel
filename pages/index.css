@@ -19,6 +19,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_font-weight/_Regular/intro__list_font-weight_Regular.css);
 
 /*Блок photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -50,11 +51,14 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 /*Body*/
+.pages {
+  background-color: #2a2c2f;
+}
+
+/*Body*/
 .page {
-  /*ширина страницы от 1280 пикселей — от стандартных ноутбуков и до бесконечности*/
   max-width: 1280px;
   margin: 0 auto;
-  font-family: "Inter", Arial, sans-serif;
   background-color: #2a2c2f;
 }
 

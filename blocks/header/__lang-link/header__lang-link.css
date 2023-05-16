@@ -6,15 +6,19 @@
   text-align: right;
   margin: 18px 18px 6px auto;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .header__lang-link:last-child {
   margin: 18px 0 6px 0;
-  text-decoration: none;
 }
 
 .header__lang-link:hover {
   opacity: 80%;
+}
+
+.header__lang-link:active {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1024px) {
@@ -38,6 +42,5 @@
     margin: 14px 0 8px 0;
     font-size: 18px;
     line-height: 111%;
-    text-decoration: none;
   }
 }
