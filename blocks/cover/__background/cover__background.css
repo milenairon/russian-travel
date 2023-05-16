@@ -2,7 +2,6 @@
 .cover__background {
   background-image: url(../../../images/cover-trains.jpg);
   min-height: 740px;
-  background-size: 100%;
   object-fit: cover;
   position: relative;
   top: 0;

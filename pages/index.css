@@ -63,8 +63,6 @@
   background-color: #2a2c2f;
 }
 
-/*html { overflow-y: hidden; }*/
-
 @media screen and (max-width: 1024px) {
   .page {
     max-width: 1024px;
