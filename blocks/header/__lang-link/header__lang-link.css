@@ -17,10 +17,6 @@
   opacity: 80%;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 1024px) {
   .header__lang-link {
     margin: 18px 18px 6px auto;
