@@ -9,12 +9,6 @@
   font-family: "Inter", Arial, sans-serif;
 }
 
-@media screen and (max-width: 1150px) {
-  .header {
-    padding: 28px 48px 0;
-  }
-}
-
 @media screen and (max-width: 960px) {
   .header {
     padding: 28px 24px 0;

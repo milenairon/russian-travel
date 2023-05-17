@@ -13,9 +13,3 @@
   }
 }
 
-@media screen and (max-width: 540px) {
-  .footer__links {
-    width: 100%;
-    flex-direction: column;
-  }
-}

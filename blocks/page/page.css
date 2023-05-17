@@ -1,0 +1,31 @@
+/*Блок ниже body*/
+/*@media screen and (max-width: 1280px) and (min-width: 1153px)*/
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #2a2c2f;
+}
+
+@media screen and (max-width: 1150px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .page {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .page {
+    max-width: 320px;
+  }
+}

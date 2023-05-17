@@ -1,8 +1,14 @@
 /*Нормалайз*/
 @import url(../vendor/normalize.css);
 
-/*Нормалайз*/
+/*Шрифты*/
 @import url(../fonts/fonts.css);
+
+/*Блок body*/
+@import url(../blocks/pages/pages.css);
+
+/*Блок ниже body*/
+@import url(../blocks/page/page.css);
 
 /*Блок header*/
 @import url(../blocks/header/header.css);
@@ -53,42 +59,6 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-/*Body*/
-.pages {
-  background-color: #2a2c2f;
-}
-
-/*@media screen and (max-width: 1280px) and (min-width: 1153px)*/
-.page {
-  max-width: 1280px;
-  margin: 0 auto;
-  background-color: #2a2c2f;
-}
-
-@media screen and (max-width: 1150px) {
-  .page {
-    max-width: 1024px;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .page {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .page {
-    max-width: 320px;
-  }
-}
 
 *,
 *::before,

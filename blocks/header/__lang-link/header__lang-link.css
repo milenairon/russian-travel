@@ -17,18 +17,6 @@
   opacity: 80%;
 }
 
-@media screen and (max-width: 1150px) {
-  .header__lang-link {
-    margin: 18px 18px 6px auto;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .header__lang-link {
-    margin: 18px 18px 6px auto;
-  }
-}
-
 @media screen and (max-width: 540px) {
   .header__lang-link {
     font-size: 18px;

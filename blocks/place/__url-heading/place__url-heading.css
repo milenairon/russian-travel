@@ -7,25 +7,7 @@
   color: #aaaaaa;
 }
 
-@media screen and (max-width: 1150px) {
-  .place__url-heading {
-    letter-spacing: 2px;
-  }
-}
-
 @media screen and (max-width: 960px) {
-  .place__url-heading {
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .place__url-heading {
-    line-height: 100%;
-  }
-}
-
-@media screen and (max-width: 540px) {
   .place__url-heading {
     line-height: 100%;
   }
