@@ -2,7 +2,6 @@
   width: 100%;
   padding: 28px 48px 0;
   box-sizing: border-box;
-  max-height: calc(52px + 28px);
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -24,6 +23,5 @@
 @media screen and (max-width: 540px) {
   .header {
     padding: 16px 16px 0;
-    max-height: calc(42px + 16px);
   }
 }

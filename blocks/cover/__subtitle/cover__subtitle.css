@@ -14,8 +14,17 @@
   color: #ffffff;
 }
 
-.cover__subtitle:hover ~ .cover__overlay {
-  opacity: 80%;
+.cover__subtitle {
+  margin-block: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 32px auto 0;
+  max-width: 360px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 720px) {

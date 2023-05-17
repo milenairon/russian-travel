@@ -13,10 +13,6 @@
   color: #ffffff;
 }
 
-.cover__title:hover ~ .cover__overlay {
-  opacity: 80%;
-}
-
 @media screen and (max-width: 1150px) {
   .cover__title {
     margin: 195px auto 0;
