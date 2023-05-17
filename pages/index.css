@@ -66,25 +66,25 @@
   background-color: #2a2c2f;
 }
 
-@media screen and (max-width: 1152px) and (min-width: 960px) {
+@media screen and (max-width: 1150px) {
   .page {
     max-width: 1024px;
   }
 }
 
-@media screen and (max-width: 959px) and (min-width: 720px) {
+@media screen and (max-width: 960px) {
   .page {
     max-width: 768px;
   }
 }
 
-@media screen and (max-width: 719px) and (min-width: 540px) {
+@media screen and (max-width: 720px) {
   .page {
     max-width: 600px;
   }
 }
 
-@media screen and (max-width: 539px) and (min-width: 320px) {
+@media screen and (max-width: 540px) {
   .page {
     max-width: 320px;
   }
