@@ -1,6 +1,9 @@
 /*Нормалайз*/
 @import url(../vendor/normalize.css);
 
+/*Нормалайз*/
+@import url(../fonts/fonts.css);
+
 /*Блок header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -56,27 +59,39 @@
   background-color: #2a2c2f;
 }
 
-/*Body*/
+/*@media screen and (max-width: 1280px) and (min-width: 1153px)*/
 .page {
   max-width: 1280px;
   margin: 0 auto;
   background-color: #2a2c2f;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1152px) and (min-width: 960px) {
   .page {
     max-width: 1024px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 959px) and (min-width: 720px) {
   .page {
     max-width: 768px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 719px) and (min-width: 540px) {
+  .page {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 539px) and (min-width: 320px) {
   .page {
     max-width: 320px;
   }
+}
+
+*,
+*::before,
+*::after {
+  outline: 1px solid red;
 }

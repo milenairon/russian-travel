@@ -15,7 +15,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1152px) and (min-width: 960px) {
   .place {
     grid-template-columns: calc(49.1071% - 32px / 2) calc(50.8929% - 32px / 2);
     column-gap: 32px;
@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 959px) and (min-width: 720px) {
   .place {
     margin: 73px 0 0;
     grid-template-columns: calc(49.1329% - 28px / 2) calc(50.8671% - 28px / 2);
@@ -46,7 +46,13 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 719px) and (min-width: 540px) {
+  .page {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 539px) and (min-width: 320px) {
   .place {
     margin: 50px 0 0;
     grid-template-columns: 1fr;
