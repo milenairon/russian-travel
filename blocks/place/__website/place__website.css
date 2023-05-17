@@ -8,8 +8,8 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .place__website {
+    margin: 0 20px 0;
   }
 }
 

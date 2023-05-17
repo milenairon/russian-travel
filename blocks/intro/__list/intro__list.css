@@ -24,8 +24,9 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .intro__list {
+    font-size: 12px;
+    line-height: 150%;
   }
 }
 

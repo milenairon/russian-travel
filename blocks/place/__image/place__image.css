@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
+  .place__image {
     max-width: 600px;
   }
 }

@@ -8,8 +8,9 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .intro__title {
+    font-size: 43px;
+    line-height: 109%;
   }
 }
 

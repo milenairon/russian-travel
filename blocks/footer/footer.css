@@ -14,8 +14,10 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .footer {
+    margin: 76px 140px 0 19px;
+    justify-content: start;
+    flex-direction: column;
   }
 }
 

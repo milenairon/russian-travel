@@ -47,8 +47,17 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .place {
+    margin: 50px 0 0;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+    padding: 0;
+  }
+  .place:first-child {
+    margin: 0;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+    padding: 0;
   }
 }
 
@@ -56,14 +65,12 @@
   .place {
     margin: 50px 0 0;
     grid-template-columns: 1fr;
-    column-gap: 40px;
     row-gap: 32px;
     padding: 0;
   }
   .place:first-child {
     margin: 0;
     grid-template-columns: 1fr;
-    column-gap: 40px;
     row-gap: 32px;
     padding: 0;
   }

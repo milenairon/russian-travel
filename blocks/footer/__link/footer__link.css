@@ -13,8 +13,11 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .footer__link {
+    margin: 0 auto 32px 0;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 100%;
   }
 }
 

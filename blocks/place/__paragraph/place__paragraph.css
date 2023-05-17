@@ -36,8 +36,15 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .place__paragraph {
+    margin: 25px 20px 0;
+    font-size: 16px;
+    max-width: 560px;
+  }
+  .place__paragraph:first-child {
+    margin: 32px 20px 0;
+    font-size: 16px;
+    max-width: 560px;
   }
 }
 

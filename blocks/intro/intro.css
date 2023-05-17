@@ -20,8 +20,9 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .intro {
+    margin: 76px 20px 0;
+    max-width: 500px;
   }
 }
 

@@ -11,8 +11,10 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .lead__title {
+    max-width: 490px;
+    font-size: 68px;
+    line-height: 110%;
   }
 }
 

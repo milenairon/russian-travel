@@ -20,8 +20,8 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .place__url-heading {
+    line-height: 100%;
   }
 }
 

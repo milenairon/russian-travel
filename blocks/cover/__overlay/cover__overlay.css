@@ -3,7 +3,7 @@
   background-color: #2a2c2f;
   width: 100%;
   box-sizing: border-box;
-  min-height: 740px;
+  height: 100%;
   opacity: 30%;
   z-index: 2;
   position: absolute;
@@ -14,28 +14,4 @@
 
 .cover__overlay:hover {
   opacity: 80%;
-}
-
-@media screen and (max-width: 1150px) {
-  .cover__overlay {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .cover__overlay {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .cover__overlay {
-    min-height: 200px;
-  }
 }

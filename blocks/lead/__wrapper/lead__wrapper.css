@@ -16,8 +16,8 @@
 }
 
 @media screen and (max-width: 720px) {
-  .page {
-    max-width: 600px;
+  .lead__wrapper {
+    margin: 48px 0 0;
   }
 }
 
