@@ -3,7 +3,10 @@
 ---
 
 <div align="center">
-<img src='/images/Обзор проекта.mp4' alt='обзор проекта'>
+<video controls>
+  <source src="/images/Обзор проекта.mp4" type="video/mp4">
+  Ваш браузер не поддерживает встроенные видео :(
+</video>
 </div>
 
 ---
