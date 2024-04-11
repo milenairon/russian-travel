@@ -3,7 +3,7 @@
 ---
 
 <div align="center">
-<img src='/images/Обзор-проекта.gif' alt='обзор проекта'>
+<img src='/images/Обзор проекта.mp4' alt='обзор проекта'>
 </div>
 
 ---
